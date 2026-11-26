@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>America in Numbers — a national statistics atlas of the United States</title>
+<meta name="description" content="Population, economy, health, education and housing statistics for the United States and all 50 states plus DC: maps, charts, rankings and 235 years of trends, each figure with its source and year.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="40" height="40" role="img" aria-label="">
+          <rect x="2" y="2" width="36" height="36" rx="7" fill="#f2b63c"/>
+          <rect x="9" y="22" width="5" height="9" fill="#101d38"/>
+          <rect x="17.5" y="16" width="5" height="15" fill="#101d38"/>
+          <rect x="26" y="10" width="5" height="21" fill="#101d38"/>
+        </svg>
+      </span>
+      <span class="brand-text">
+        <span class="brand-name">America in Numbers</span>
+        <span class="brand-sub">A national statistics atlas of the United States</span>
+      </span>
+    </a>
+    <p class="masthead-note">341.8 million people · 50 states + DC · every figure sourced and dated</p>
+  </div>
+  <nav class="main-nav" aria-label="Main">
+    <a href="#/" data-route="home">Overview</a>
+    <a href="#/map" data-route="map">Map explorer</a>
+    <a href="#/states" data-route="states">State data table</a>
+    <a href="#/compare" data-route="compare">Compare states</a>
+    <a href="#/trends" data-route="trends">Trends since 1790</a>
+    <a href="#/indicators" data-route="indicators">Indicators &amp; the world</a>
+    <a href="#/methods" data-route="methods">Methods &amp; sources</a>
+  </nav>
+</header>
+
+<main id="view" class="view" tabindex="-1">
+  <p class="loading">Loading the atlas…</p>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p><strong>America in Numbers</strong> is an independent statistics atlas built from public data published by the
+    U.S. Census Bureau, the Bureau of Economic Analysis, the Bureau of Labor Statistics, the CDC and the FBI.
+    It runs entirely from its own files: no tracking, no accounts, no network requests.</p>
+    <p class="footer-links">
+      <a href="#/methods">Methods &amp; sources</a> ·
+      <a href="#/states">Download the state dataset (CSV)</a> ·
+      <a href="#/indicators">Indicator definitions</a>
+    </p>
+    <p class="footer-fine">Figures are the latest published estimates at compilation; see Methods for reference years and caveats.
+    State rankings include the District of Columbia as a 51st row where noted.</p>
+  </div>
+</footer>
+
+<noscript><p style="padding:2rem;text-align:center">America in Numbers needs JavaScript to draw its charts and maps. The underlying figures come from the U.S. Census Bureau, BEA, BLS, CDC and FBI; see the Methods page in a JavaScript-enabled browser.</p></noscript>
+
+<script src="js/format.js"></script>
+<script src="js/data-states.js"></script>
+<script src="js/data-series.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/map.js"></script>
+<script src="js/views-home.js"></script>
+<script src="js/views-map.js"></script>
+<script src="js/views-table.js"></script>
+<script src="js/views-compare.js"></script>
+<script src="js/views-trends.js"></script>
+<script src="js/views-indicators.js"></script>
+<script src="js/views-state.js"></script>
+<script src="js/views-methods.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
